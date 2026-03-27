@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-void inx(int *x) {
+void inc(int *x) {
     if(x==NULL){
         return;
     }
