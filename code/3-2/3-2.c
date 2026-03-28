@@ -2,10 +2,10 @@
 
 
 void swap_endian(int *x){
-    unsigned char* addr = (unsigned char*)x;
-    unsigned char tep;
+    char* addr = (unsigned char*)x;
+    char tep;
 
-    addr[0] = tep;
+    tep = addr[0];
     addr[0] = addr[3];
     addr[3] = tep;
 
